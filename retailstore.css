@@ -1,0 +1,238 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background-image:url("backgrounds/bg8.png");
+	background-size:cover;
+}
+
+#wrapper
+{
+	width:980px;
+	margin:auto;
+	border:1pt solid black;
+}
+
+#header
+{
+	width:977px;
+	border:1pt solid grey;
+	background-color:black;
+}
+
+#s1
+{
+	color:grey;
+	font-size:12;
+	padding:10px;
+	float:left;
+}
+#s1 a
+{
+	color:grey;
+	font-size:10;
+	padding:10px;
+	text-decoration:none;
+}
+#s1 a:hover
+{
+	color:white;
+}
+
+#s2
+{
+	color:grey;
+	font-size:12;
+	padding:10px;
+	float:right;
+}
+#s2 a
+{
+	color:grey;
+	font-size:10;
+	padding:10px;
+	text-decoration:none;
+}
+#s2 a:hover
+{
+	color:white;
+}
+
+#menu
+{
+	width:977px;
+	border:1pt solid white;
+	background:white;
+}
+
+#logo
+{
+	width:50px;
+	height:50px;
+	background-color:#E41B17;
+	color:white;
+	text-align:center;
+	font-family:forte;
+	font-size:35;
+	border-radius:50%;
+	float:left;
+	margin:5px;
+	margin-left:40px;
+	
+}
+#list
+{
+	width:800px;
+	
+	float:right;
+	margin:10px;
+}
+#list ul
+{
+	list-style:none;
+}
+#list ul li
+{
+	display:inline-block;
+	padding:10px;
+	padding-left:20px;
+	position:relative;
+	
+}
+#list ul li a
+{
+	color:black;
+	text-decoration:none;
+	font-size:15;
+	font-weight:bold;
+	
+}
+#list ul li a:hover
+{
+	color:#E41B17;
+	text-shadow:2px 3px 4px grey;
+}
+
+#search
+{
+	width:977px;
+	
+	border:1pt solid black;
+	text-align:center;
+}
+#search p
+{
+	color:#E41B17;
+	font-size:80;
+	font-family:georgia;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+#find
+{
+	width:500px;
+	
+	margin-left:250px;
+	margin-top:40px;
+	text-align:left;
+	margin-bottom:40px;
+}
+#find p
+{
+	color:black;
+	font-size:20;
+}
+#find select
+{
+	width:300px;
+	font-size:20;
+	height:25px;
+	
+}
+
+#footer
+{
+	width:969px;
+	
+	padding:8px;
+	color:white;
+	font-size:20;
+	font-family:verdana;
+	padding:5px;
+	background:radial-gradient(grey,black);
+	text-align:center;
+}
+#footer p
+{
+	color:white;
+	font-size:20;
+	font-family:calibri;
+}
+
+#footer input
+{
+	color:grey;
+	font-size:25;
+	width:500px;
+	border:1pt solid grey;
+	background-color:#E5E4E2;
+}
+
+.sp
+{
+	width:450px;
+	
+	float:left;
+	margin:5px;
+	margin-left:20px;
+	color:#E5E4E2;
+	font-size:25;
+	font-family:verdana;
+	text-align:center;
+}
+.sp p
+{
+	color:white;
+	font-size:20;
+	
+}
+#f
+{
+	width:970px;
+	
+}
+.box
+{
+	width:225px;
+	
+	float:left;
+	margin:5px;
+}
+#f .box p
+{
+	color:white;
+	font-size:20;
+	font-family:aharoni;
+	padding:10px;	
+}
+.box ul
+{
+	list-style:none;
+}
+.box ul li
+{
+	
+}
+.box ul li a
+{
+	color:grey;
+	text-decoration:none;
+	font-size:15;
+	line-height:30px;
+}
+
+

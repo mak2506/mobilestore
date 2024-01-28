@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<title>Mob Sign up</title>
+		<link rel="stylesheet" type="text/css" href="signup.css"/>
+		<script type="text/javascript">
+			function check()
+			{
+				var con=document.getElementById('country').value;
+				var email=document.getElementById('mail').value;
+				if(con=="Select" && email=="")
+				{
+					alert("Fill entries!!!");
+					return false;
+				}
+				else if(con=="Select")
+				{
+					alert("Select your country!!");
+					return false;
+				}
+				else if(email=="")
+				{
+					alert("Enter your email id!!");
+					return false;
+				}
+				else
+				{
+					return true;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="hd">
+				
+			</div><!--end of hd-->
+			<div id="header">
+				<div id="logo">
+					M
+				</div><!--end of logo-->
+				<br clear="all"/>
+				<p>Create Mob Account</p>
+			</div><!--end of header-->
+			<div id="sign_in">
+				<ul>
+					<li id="t">
+						<p>Country/Region:</p>
+						<div id="up1">
+							
+							<select id="country" name="ddl">
+								<option>Select</option>
+								<option>America</option>
+								<option>Algeria</option>
+								<option>Australia</option>
+								<option>Bangladesh</option>
+								<option>Brazil</option>
+								<option>Bulgaria</option>
+								<option>Bhutan</option>
+								<option>Egypt</option>
+								<option>Italy</option>
+								<option>India</option>
+								<option>Indonesia</option>
+								<option>Kenya</option>
+								<option>France</option>
+								<option>Kazakistan</option>
+								<option>Myanmar</option>
+								<option>Malaysia</option>
+								<option>Europe</option>
+								<option>Sri Lanka</option>
+								<option>New Zealand</option>
+								<option>Pakistan</option>
+								<option>Phillipines</option>
+								<option>Singapore</option>
+								<option>Zimbabwe</option>
+								<option>Finland</option>
+								<option>China</option>
+								<option>Russia</option>
+								<option>Turkey</option>
+							</select>
+						</div><!--end of up1-->
+					</li>
+					<li id="l">
+						<p>Email</p>
+						<div id="up2">
+							<input  id="mail" type="text" name="userphone"/>							</div><!--end of up2-->
+					</li>
+					<li>
+						<div id="up3">
+							<a href="entry.html"><input onclick="return check()" type="button" name="sign in" value="Create Mob Account"/></a>
+						</div><!--end of up3-->
+					</li>
+					<li>
+						<div id="up4">
+							<input onclick="return check()" type="button" name="sign in" value="Create Using Phone Number"/>
+						</div><!--end of up4-->
+					</li>
+				</ul>
+				
+			</div><!--end of sign_in-->
+				<div id="agree">
+					<p>*Stay up to date with news and offers from Mob Store.</p>
+					</br>
+					<p>*By creating account you are agreeing to our <a href="#">User Agreeement</a> and <a href="#">Privacy Policy</a></p>
+				</div><!--end of agree-->
+				<hr color="#D1D0CE">
+			<div id="footer">
+				
+				<a href="#">English</a>|<a href="#">FAQ</a>|<a href="#">Privacy Policy</a>
+				</br>
+				Mob inc. All Rights Reserved
+			</div><!--end of footer-->
+		</div><!--end of wrapper-->
+	</body>
+</html>
