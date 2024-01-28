@@ -1,0 +1,177 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background-image:url("backgrounds/bg13.jpg");
+	background-size:cover;
+}
+
+#wrapper
+{
+	border:1pt solid #D1D0CE;
+	width:980px;
+	margin:auto;
+	margin-top:20px;
+}
+#hd
+{
+	width:980px;
+	background:radial-gradient(white,#D1D0CE);
+	height:40px;
+}
+#header
+{
+	width:978px;
+	
+	margin-top:5px;
+}
+
+#logo
+{
+	width:50px;
+	height:50px;
+	
+	background-color:#E41B17;
+	color:white;
+	text-align:center;
+	font-family:forte;
+	font-size:35;
+	border-radius:50%;
+	float:left;
+	margin:5px;
+	margin-left:440px;
+}
+#header p
+{
+	color:black;
+	font-family:georgia;
+	font-size:35;
+	line-height:60px;
+	text-align:center;
+	
+}
+
+#sign_in
+{
+	width:550px;
+	margin-top:40px;
+	margin-left:200px;
+	margin-bottom:30px;
+	text-align:center;
+	font-weight:bold;
+}
+
+#sign_in ul
+{
+	list-style:none;
+}
+ #sign_in ul li
+{
+	margin:30px;
+	margin-left:60px;
+	
+}
+
+#up1 select
+{
+	width:400px;
+	color:black;
+	font-size:15;
+	
+	padding:10px;
+	
+}
+
+
+#up2 input
+{
+	width:400px;
+	color:black;
+	font-size:15;
+	padding:10px;
+	margin:5px;
+}
+
+
+#up3 input
+{
+	width:400px;
+	color:black;
+	font-size:20;
+	padding:10px;
+	padding-left:54px;
+	padding-right:54px;
+	margin:5px;
+	margin-left:20px;
+	background-color:#E41B17;
+	border-radius:5px;
+}
+#up3 input:active
+{
+	opacity:0.6;
+	box-shadow:2px 3px 4px grey;
+}
+
+#up4 input
+{
+	width:400px;
+	color:black;
+	font-size:20;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	margin:5px;
+	margin-left:20px;
+	background-color:grey
+	border-radius:5px;
+}
+#up4 input:active
+{
+	opacity:0.6;
+	box-shadow:2px 3px 4px grey;
+}
+
+#agree
+{
+	margin-top:50px;
+	width:978px;
+	
+	text-align:center;
+	color:#2C3539;
+	font-size:17;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#agree a
+{
+	text-decoration:none;
+	color:black;
+}
+#agree a:hover
+{
+	text-decoration:underline;
+	color:blue;
+}
+
+#footer
+{
+	width:960px;
+	background:radial-gradient(white,#D1D0CE);
+	color:black;
+	font-size:16;
+	padding:10px;
+	text-align:center;
+	
+}
+
+#footer a
+{
+	color:grey;
+	font-size:17;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+}
